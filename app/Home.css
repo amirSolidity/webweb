@@ -1,10 +1,76 @@
-body , html{
+@font-face {
+    font-family: roboto;
+    src: url(../public/fonts/Roboto.ttf);
+}
+
+@font-face {
+    font-family: allerta;
+    src: url(../public/fonts/allerta_medium.otf);
+}
+
+body,html {
     width: 100%;
     height: 100%;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.homeDiv1 {
+    width: 100%;
+    background-color: #0a1426;
+    display: flex;
+    flex-direction: row;
+    column-gap: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeImgDiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.homeImg {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 10px;
+    -webkit-box-shadow: 8px 8px 31px -10px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 31px -10px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 31px -10px rgba(66, 68, 90, 1);
+}
+
+.ll {
+    background: rgba(0, 255, 255, 0.4);
+    text-align: right;
+    margin-top: -200px;
+    margin-left: 15rem;
+}
+.txtDiv1{
+    width: 34rem;
+}
+.desTxt1{
+    font-family: allerta;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.detailsBtn {
+    width: 9rem;
+    height: 4rem;
+    background-color: #26c492;
+    transition: color 0.2s, background-color 0.2s;
+    font-family: roboto;
+    font-size: 1.3rem;
+    border: 1px solid #26c492;
+}
+.detailsBtn:hover {
+    background-color: #fff;
+    color: #0a1426;
 }

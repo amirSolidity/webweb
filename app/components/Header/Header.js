@@ -10,13 +10,13 @@ const Header = () => {
     const[isblock , setIsBlock] = useState(false)
 
      function menuClick(){
-        setIsBlock((prevState) => !prevState)
+        setIsBlock(!isblock)
      }
 
     
     return (
         <div className='headerContainer'>
-            <div className='logoDiv'>
+            <div className='logoDiv'> 
                 <img className='logoImg' src='./logoImg.png' />
             </div>  
 
