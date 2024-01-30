@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import './Home.css'
+import { motion } from "framer-motion";
 import Header from './components/Header/Header'
 
 
@@ -39,6 +40,11 @@ function Home() {
           <Button variant="success" className='detailsBtn'>Details</Button>
         </div>
       </div>
+      <motion.div
+      className="box"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+    />
     </div>
   )
 }
