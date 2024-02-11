@@ -14,7 +14,7 @@ function Home() {
       "img": "./cryptoPriceImg.jpg",
       "description": "On this site, you can find out about the price and price changes of various cryptocurrencies.",
     },
-    "tweets": {
+    "tweets": { 
       "name": "Tweets",
       "img": "./tweetImg.jpg",
       "description": "You can see the tweets shared about the Ethereum network and learn about updates and changes",

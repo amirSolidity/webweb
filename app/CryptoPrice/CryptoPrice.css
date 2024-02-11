@@ -1,0 +1,135 @@
+@font-face {
+    font-family: roboto;
+    src: url(../components/font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: allerta;
+    src: url(../components/font/allerta_medium.otf);
+}
+.priceDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    justify-self: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+} 
+.priceHeaderDiv{
+    display: flex; 
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceHeader{
+    font-family: roboto;
+}
+.priceDes{
+    font-family: allerta;
+    opacity: 80%;
+    font-size: 0.9rem;
+}
+
+.priceBoxDiv{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.priceBox{
+    width: 75rem;
+    height: 20rem;
+    border-radius: 10px;
+    background-color: #DCF6F3;
+    box-shadow: 8px 8px 31px -10px rgba(66, 68, 90, 1);
+    display: flex;
+    flex-direction: column;
+}
+.pricesHeaderDiv{
+    width: 100%;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #26c492;
+    border-radius: 10px;
+    column-gap: 15rem;
+}
+.hashtagNameDiv{
+    display: flex;
+    column-gap: 1rem;
+}
+.hashtagIconDiv{
+    text-align: left;
+    width: 4rem;
+    align-items: start;
+}
+.HeaderName{
+    width: 8rem;
+    font-family: roboto;
+}
+.price24ChangeDiv{
+    display: flex;
+    column-gap: 7rem;
+}
+.coinBox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+.iconNameDiv{
+    display: flex;
+    column-gap: 1.5rem;
+}
+.coinNumNameDiv{
+    display: flex;
+    column-gap: 1rem;
+}
+.coinNum{
+    font-family: roboto;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 4rem;
+}
+.logoNameDiv{
+    display: flex;
+    column-gap: 0.5rem;
+}
+.coinName{
+    font-family: roboto;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 8rem;
+}
+.coinLogo{
+    width: 2rem;
+    height: 3rem;
+}
+.starIconDiv{
+    width: 2rem;
+}
+.starIcon{
+    font-size: 2rem;
+}
+.coinPricesDiv{
+    display: flex;
+    column-gap: 9rem;
+}
+.prices{
+    font-family: allerta;
+    width: 8rem;
+}

@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className='footerEmailDiv1'>
                     <span className='footerEmailTxt'>Enter Your Email Address</span>
                     <div className='footerEmailDiv'>
-                        <input type='email' Name='footerEmailInput' placeholder='Email Address' />
+                        <input type='email' Name='footerEmailInput' placeholder='Email Address'  className="footerEmailInput"/>
                         <button className='footerBtn'>Send</button>
                     </div>
                 </div>
